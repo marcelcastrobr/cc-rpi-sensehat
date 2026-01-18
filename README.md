@@ -2,6 +2,8 @@
 
 Configuration files for a Raspberry Pi running MagicMirror with a SenseHat display.
 
+![image-20260118194143276](./assets/image-20260118194143276.png)
+
 ## Directory Structure
 
 ```
