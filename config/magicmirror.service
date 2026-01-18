@@ -1,0 +1,15 @@
+[Unit]
+Description=MagicMirror
+After=network.target graphical.target
+
+[Service]
+Type=simple
+User=pi
+Environment=DISPLAY=:0
+WorkingDirectory=/home/pi/MagicMirror
+ExecStart=/usr/local/bin/npm start
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=graphical.target
