@@ -4,6 +4,7 @@ from datetime import datetime
 import time
 
 sense = SenseHat()
+sense.set_rotation(180)
 
 while True:
     # Get current hour in 12-hour format
